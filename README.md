@@ -9,10 +9,13 @@ Built with Vue 3 + Vue Router 4 (CDN) — zero dependencies, no build tools requ
 ## Features
 
 - **题库 Question Bank** — 833+ questions (judgment / single-choice / multi-choice), verified against the official exam PDF
-- **练习模式 Practice Mode** — 10 questions per page, smart ordering (unseen → wrong → correct), progress persistence, inline stats, "redo page" button
-- **考试模式 Exam Mode** — 190 questions, 90-minute countdown, auto-submit, score review
-- **多用户 Multi-user** — Local login with per-user practice records and exam history (localStorage)
-- **数据集 Datasets** — Bundled CSV/XLSX files for hands-on data processing exercises
+- **练习模式 Practice Mode** — 10 questions per page, smart ordering (unseen → wrong → correct), progress persistence, inline stats (unseen / wrong / correct counts), "redo page" button to retry
+- **考试模式 Exam Mode** — 190 questions, 90-minute countdown, auto-submit on timeout, low-time warning, detailed score review
+- **实操训练 Hands-on Training** — Code fill-in-the-blank and document-based tasks with AI-powered scoring. Covers data processing, model training, and deployment scenarios using bundled datasets. Filter by category or task type
+- **成绩记录 History** — Full exam history with per-attempt scores and review
+- **多用户 Multi-user** — Local login with per-user practice records, exam history, and operation progress (localStorage)
+- **知识点分类 Knowledge Structure** — Questions organized by exam domains and topics with sidebar navigation
+- **数据集 Datasets** — Bundled CSV/XLSX files for hands-on data processing and model training exercises
 
 ## Quick Start
 
